@@ -13,6 +13,8 @@ background: #121415;
 border-radius:15px;
 padding: 20px;
 border:0px;
+height: 450px;
+margin-bottom:10px;
 `
 export const Stars = Styled.a`
 font-size:10px;
@@ -25,23 +27,15 @@ font-weight: 700;
 line-height: 33px;
 letter-spacing: 0px;
 text-align: left;
-width: 368px
-height: 146px
-top: 1580px
-left: 139px
-
 `
 export const Para2 = Styled.p`
 color:#B7B6BD;
 font-family: "Inter", serif sans;
-font-size: 15px;
+font-size: 18px;
 font-weight: 400;
 line-height: 38px;
 letter-spacing: 0px;
 text-align: left;
-
-
-
 `
 export const ProfileCon = Styled.div`
 display: flex;
@@ -64,7 +58,20 @@ font-size:15px;
 export const Role = Styled.a`
 color:#2B459B;
 font-size:12px;
-;
-
-
+`
+export const BarCon = Styled.div`
+display: flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+`
+export const IMG2 = Styled.img`
+height: 20px;
+width: 40px;
+align-items:center;
+`
+export const IMG3 = Styled.img`
+height: 20px;
+width: 40px;
+align-items:center;
 `

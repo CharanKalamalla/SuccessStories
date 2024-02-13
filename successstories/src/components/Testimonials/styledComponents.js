@@ -54,10 +54,10 @@ export const CrEle = Styled.p`
   color: #244886;
   font-size: 17px;
   font-family: "Inter", serif sans;
-`;
+`
 export const Desc = Styled.p`
   color: #B7B6BD;
-  font-size: 14px;
+  font-size: 20px;
   text-shadow: 0px 1px 1px;
   margin-top:50px
   font-family: "Inter", serif sans;

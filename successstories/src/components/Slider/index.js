@@ -1,17 +1,12 @@
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-import { MainContainer,CardContainer,Stars,Para1,Para2,Image,Name,Role,Details,ProfileCon } from './styledComponents';
-
+import { MainContainer,CardContainer,Stars,Para1,Para2,Image,Name,Role,Details,ProfileCon,BarCon,IMG2,IMG3 } from './styledComponents';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 // import required modules
 import { Pagination } from 'swiper/modules';
-
 export default function App() {
   return (
     <>
@@ -128,6 +123,10 @@ export default function App() {
             </CardContainer>
             </MainContainer>
         </SwiperSlide>
+        <BarCon>
+                <IMG2 src="https://res.cloudinary.com/dds29bnj2/image/upload/v1707793366/Forma_1_copy_8_enadwt.svg"/>
+                <IMG3 src="https://res.cloudinary.com/dds29bnj2/image/upload/v1707794394/Forma_1_ayquhl.svg" />
+            </BarCon>
         
       </Swiper>
     </>
