@@ -59,19 +59,4 @@ export const Role = Styled.a`
 color:#2B459B;
 font-size:12px;
 `
-export const BarCon = Styled.div`
-display: flex;
-flex-direction:row;
-align-items:center;
-justify-content:center;
-`
-export const IMG2 = Styled.img`
-height: 20px;
-width: 40px;
-align-items:center;
-`
-export const IMG3 = Styled.img`
-height: 20px;
-width: 40px;
-align-items:center;
-`
+

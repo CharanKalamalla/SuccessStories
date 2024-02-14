@@ -1,7 +1,8 @@
 import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { MainContainer,CardContainer,Stars,Para1,Para2,Image,Name,Role,Details,ProfileCon,BarCon,IMG2,IMG3 } from './styledComponents';
+import Buttons from "../Buttons/index"
+import { MainContainer,CardContainer,Stars,Para1,Para2,Image,Name,Role,Details,ProfileCon} from './styledComponents';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -123,6 +124,7 @@ export default function App() {
             </CardContainer>
             </MainContainer>
         </SwiperSlide> 
+        <Bttons/>
       </Swiper>
     </>
   );
