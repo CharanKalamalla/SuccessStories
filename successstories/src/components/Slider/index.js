@@ -122,12 +122,7 @@ export default function App() {
                 </ProfileCon>
             </CardContainer>
             </MainContainer>
-        </SwiperSlide>
-        <BarCon>
-                <IMG2 src="https://res.cloudinary.com/dds29bnj2/image/upload/v1707793366/Forma_1_copy_8_enadwt.svg"/>
-                <IMG3 src="https://res.cloudinary.com/dds29bnj2/image/upload/v1707794394/Forma_1_ayquhl.svg" />
-            </BarCon>
-        
+        </SwiperSlide> 
       </Swiper>
     </>
   );
