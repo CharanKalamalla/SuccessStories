@@ -13,9 +13,8 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-margin-bottom:30px;
+margin-bottom:20px;
 margin-right:30px;
-
 `
 export const Heading = Styled.h1`
 color: #2B459B;
@@ -47,7 +46,6 @@ flex-direction:column;
 gap: 10px;
 margin-top:25px;
 `
-
 export const CrEle = Styled.p`
   margin: -7px;
   padding: 0px;

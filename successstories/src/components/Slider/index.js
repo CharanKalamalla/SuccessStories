@@ -5,7 +5,7 @@ import Buttons from "../Buttons/index"
 import { MainContainer,CardContainer,Stars,Para1,Para2,Image,Name,Role,Details,ProfileCon} from './styledComponents';
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+
 // import required modules
 import { Pagination } from 'swiper/modules';
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
             <MainContainer>
             <CardContainer>
                 <Stars>
-                ⭐⭐⭐⭐
+                ⭐⭐⭐⭐⭐
                 </Stars>
                 <Para1>
                 Modern look & trending design
@@ -50,7 +50,7 @@ export default function App() {
             <MainContainer>
             <CardContainer>
                 <Stars>
-                ⭐⭐⭐⭐
+                ⭐⭐⭐⭐⭐
                 </Stars>
                 <Para1>
                 Design Quality & performance
@@ -76,7 +76,7 @@ export default function App() {
             <MainContainer>
             <CardContainer>
                 <Stars>
-                ⭐⭐⭐⭐
+                ⭐⭐⭐⭐⭐
                 </Stars>
                 <Para1>
                 Layout and organized layers
@@ -102,7 +102,7 @@ export default function App() {
             <MainContainer>
             <CardContainer>
                 <Stars>
-                ⭐⭐⭐⭐
+                ⭐⭐⭐⭐⭐
                 </Stars>
                 <Para1>
                 Modern look & trending design
@@ -124,7 +124,7 @@ export default function App() {
             </CardContainer>
             </MainContainer>
         </SwiperSlide> 
-        <Bttons/>
+        <Buttons/>
       </Swiper>
     </>
   );
